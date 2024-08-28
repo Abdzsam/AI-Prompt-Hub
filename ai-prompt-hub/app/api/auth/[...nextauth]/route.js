@@ -1,4 +1,4 @@
-import NextAuth from 'next-auth';
+import NextAuth from 'next-auth/client';
 import GoogleProvider from 'next-auth/providers/google';
 
 import User from '../../../../models/user';
